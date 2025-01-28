@@ -58,7 +58,7 @@ export default function App() {
   
   return ( 
   <>
-  <Router>
+  <Router basename="/shopping-site/">
     <div className="container">
       <Header qty={totalItems}/>
       <SearchBar onSearch={handleSearch} query={query}/>
