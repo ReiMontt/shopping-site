@@ -1,8 +1,24 @@
-# React + Vite
+# Shopping Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive shopping site built with React and JavaScript, utilizing APIs to fetch and display product data.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Product Listing:** Displays a list of products with images, names, and prices.
+- **Product Details:** Provides detailed information for each product, including description and price.
+- **Shopping Cart:** Allows users to add or remove items, with real-time updates to the cart total.
+- **Responsive Design:** Ensures optimal viewing on various devices and screen sizes.
+
+## Technologies Used
+
+- **React:** JavaScript library for building user interfaces.
+- **JavaScript:** Programming language for implementing functionality.
+- **APIs:** Fetches product data dynamically.
+- **CSS:** Styles the application for an appealing user experience.
+
+## Installation
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/ReiMontt/shopping-site.git
+   cd shopping-site
